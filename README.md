@@ -1,4 +1,4 @@
-package shape.inheriance;
+
 abstract class Shape{
   public abstract double calculateArea();
 }
@@ -44,18 +44,10 @@ class Triangle extends Shape{
     }
 }
 
-            
-    
-
-/**
- *
- * @author 1BSCCSA40
- */
+  
 public class ShapeInheriance {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         Shape circle = new Circle(5);
